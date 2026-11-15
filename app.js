@@ -616,15 +616,14 @@ function renderScreen(screenId) {
   appHeader.style.display = 'flex';
   screenContent.className = 'screen-content';
 
-  // Pantalla Final Negra
+  // Pantalla Final Negra (solo logo + botón volver al inicio)
   if (data.type === 'final') {
     appContainer.classList.add('dark-mode');
     appHeader.style.display = 'none';
     screenContent.classList.add('final-dark');
 
     screenContent.innerHTML = `
-      <img src="img/logo-pantalla-final.svg" alt="Logo MuMI Muralla Abierta" class="final-logo">
-      <div class="final-brand-text">MuMI | Muralla Abierta</div>
+      <img src="img/logo-pantalla-final.svg" alt="MuMI | Muralla Abierta" class="final-logo">
       <button class="btn-restart-dark" onclick="resetToHome()">Volver al inicio</button>
     `;
     return;
