@@ -359,6 +359,8 @@ const SCREENS = {
     icon: "arrowUp",
     title: "Atravesá la plaza",
     paragraphs: ["Cruzá la plaza en dirección hacia Juan Carlos Gómez, paralela a Ituzaingó, a mano derecha de la Iglesia Matriz."],
+    audio: "audio/pagina53.mp3",
+    audioLabel: "Escuchar instrucción",
     primaryLabel: "Siguiente paso",
     next: "hist_54"
   },
@@ -395,6 +397,8 @@ const SCREENS = {
       "De frente al Cabildo, seguí hacia la izquierda por la calle Juan Carlos Gómez.",
       "Avanzá dos cuadras, vas a llegar a la esquina entre Juan Carlos Gómez y 25 de Mayo."
     ],
+    audio: "audio/pagina56.mp3",
+    audioLabel: "Escuchar instrucción",
     primaryLabel: "Siguiente paso",
     next: "hist_57"
   },
@@ -449,6 +453,8 @@ const SCREENS = {
     icon: "arrowUp",
     title: "Avanzá en línea recta",
     paragraphs: ["Doblá a la derecha sobre la misma vereda, en Juan Carlos Gómez. Avanzá en línea recta tres cuadras hasta la esquina entre Juan Carlos Gómez y 25 de Agosto."],
+    audio: "audio/pagina61.mp3",
+    audioLabel: "Escuchar instrucción",
     primaryLabel: "Siguiente paso",
     next: "hist_62"
   },
@@ -495,6 +501,8 @@ const SCREENS = {
     icon: "arrowUp",
     title: "Vayamos al MuMI",
     paragraphs: ["Volvé a la esquina entre Juan Carlos Gómez y 25 de Agosto. Avanzá una cuadra por 25 de agosto hasta llegar a la esquina entre Bartolomé Mitre y 25 de Agosto."],
+    audio: "audio/pagina65.mp3",
+    audioLabel: "Escuchar instrucción",
     primaryLabel: "Siguiente paso",
     next: "hist_66"
   },
